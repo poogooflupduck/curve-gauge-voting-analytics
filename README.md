@@ -1,4 +1,4 @@
-# Badger Boost Market Analytics
+# curve-gauge-voting-analytics
 
 Live demo: https://curve-gauge-voting-analytics.vercel.app
 

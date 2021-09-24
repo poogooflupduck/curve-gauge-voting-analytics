@@ -8,9 +8,11 @@ import {
   ViewListIcon,
   XIcon,
   CurrencyDollarIcon,
+  CashIcon,
   UserCircleIcon,
   ChartBarIcon,
   InformationCircleIcon,
+  LightningBoltIcon,
 } from "@heroicons/react/outline";
 import {
   ChevronRightIcon,
@@ -24,68 +26,33 @@ import {
 } from "@heroicons/react/solid";
 
 const navigation = [
-  // { name: "User Behavior", href: "/", icon: UserCircleIcon },
-  // {
-  //   name: "Assets Managed",
-  //   href: "/assets",
-  //   icon: ChartBarIcon,
-  // },
-  // {
-  //   name: "Token Prices",
-  //   href: "/prices",
-  //   icon: CurrencyDollarIcon,
-  // },
-  // {
-  //   name: "About",
-  //   href: "/about",
-  //   icon: InformationCircleIcon,
-  // },
-];
-const teams = [
-  { name: "Engineering", href: "#", bgColorClass: "bg-indigo-500" },
-  { name: "Human Resources", href: "#", bgColorClass: "bg-green-500" },
-  { name: "Customer Success", href: "#", bgColorClass: "bg-yellow-500" },
-];
-const projects = [
+  { name: "Vote Transactions", href: "/#top", icon: UserCircleIcon },
   {
-    id: 1,
-    title: "GraphQL API",
-    initials: "GA",
-    team: "Engineering",
-    members: [
-      {
-        name: "Dries Vincent",
-        handle: "driesvincent",
-        imageUrl:
-          "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      },
-      {
-        name: "Lindsay Walton",
-        handle: "lindsaywalton",
-        imageUrl:
-          "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      },
-      {
-        name: "Courtney Henry",
-        handle: "courtneyhenry",
-        imageUrl:
-          "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      },
-      {
-        name: "Tom Cook",
-        handle: "tomcook",
-        imageUrl:
-          "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      },
-    ],
-    totalMembers: 12,
-    lastUpdated: "March 17, 2020",
-    pinned: true,
-    bgColorClass: "bg-pink-600",
+    name: "Top Addresses",
+    href: "/#addresses",
+    icon: ChartBarIcon,
   },
-  // More projects...
+  {
+    name: "Gauges",
+    href: "/#gauges",
+    icon: CurrencyDollarIcon,
+  },
+  {
+    name: "Voting Power",
+    href: "/#power",
+    icon: LightningBoltIcon,
+  },
+  {
+    name: "veCRV bribes",
+    href: "/bribes",
+    icon: CashIcon,
+  },
+  {
+    name: "About",
+    href: "/about",
+    icon: InformationCircleIcon,
+  },
 ];
-const pinnedProjects = projects.filter((project) => project.pinned);
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");

@@ -114,7 +114,7 @@ function Bribes(props) {
                 }}
               >
                 <iframe
-                  src="https://velocity-app.flipsidecrypto.com/velocity/visuals/0d487d5f-a60c-47a6-93bf-fdbbd96245ca/f779379f-dc69-438d-9243-b52cb409518b"
+                  src="https://curve-gauge-voting-value-of-bribes.netlify.app/velocity/visuals/0d487d5f-a60c-47a6-93bf-fdbbd96245ca/f779379f-dc69-438d-9243-b52cb409518b"
                   scrolling="no"
                   frameBorder="0"
                   style={{

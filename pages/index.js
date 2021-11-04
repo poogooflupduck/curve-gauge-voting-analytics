@@ -152,7 +152,7 @@ export default function Home(props) {
                     }}
                   >
                     <iframe
-                      src="https://velocity-app.flipsidecrypto.com/velocity/visuals/5c8621e3-c466-49fd-b49b-f4aa5e4f53f3/5d4b85ba-c66a-4454-81e2-2920b94d3bf2"
+                      src="https://curve-gauge-voting-top-addresses-voting.netlify.app/velocity/visuals/5c8621e3-c466-49fd-b49b-f4aa5e4f53f3/5d4b85ba-c66a-4454-81e2-2920b94d3bf2"
                       scrolling="no"
                       frameBorder="0"
                       style={{
